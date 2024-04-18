@@ -1,0 +1,27 @@
+
+@import "../../styles/mixin.scss";
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    .btn_group {
+        display: flex;
+        gap: 10px;
+    }
+    .btn {
+        box-sizing: border-box;
+        @include bg_color();
+        @include font_color();
+        padding: 3rem 8rem;
+        margin: 2rem;
+        border-radius: 2rem;
+        font-weight: 800;
+        cursor: pointer;
+        font-size: 4rem;
+    }
+}

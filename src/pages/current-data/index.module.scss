@@ -1,0 +1,11 @@
+@import '../../styles/mixin.scss';
+
+.wrap {
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: 100px auto;
+        @include bg_color();
+        @include font_color();
+    }
+}
